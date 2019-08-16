@@ -71,8 +71,8 @@
 	},
 
 	"page":{
-		"index":"/",
-		"portfolio":"/portfolio.html"
+		"index":"/build/",
+		"portfolio":"/build/portfolio.html"
 	},
 	"prefix":{
 		"heading":"page-header__",
@@ -87,11 +87,11 @@
 		"index":"is--index"
 	},	
 	"path":{		                  
-		"css":"/css",
-		"img":"/img",
-		"js":"/js",
-		"favicon":"/favicon",
-		"docs":"/docs"
+		"css":"/build/css",
+		"img":"/build/img",
+		"js":"/build/js",
+		"favicon":"/build/favicon",
+		"docs":"/build/docs"
 	},  
 	"filter":{
 		"all":"all",
@@ -107,306 +107,306 @@
 	"portfolio":{
 		"2019":{
 			"shanghai":{
-				"link":"/shanghai.html",
+				"link":"/build/shanghai.html",
 				"name":"Сайт кафе восточной кухни «Шанхайский квартал»",
-				"preview":"/img/portfolio/shanghai-preview.jpg",
-				"maket":"/img/portfolio/shanghai-maket.jpg",
+				"preview":"/build/img/portfolio/shanghai-preview.jpg",
+				"maket":"/build/img/portfolio/shanghai-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"kit":{
-				"link":"/kit.html",
+				"link":"/build/kit.html",
 				"name":"Фирменный стиль ООО «КИТ»",
-				"preview":"/img/portfolio/kit-preview.jpg",
-				"maket":"/img/portfolio/kit-maket.jpg",
+				"preview":"/build/img/portfolio/kit-preview.jpg",
+				"maket":"/build/img/portfolio/kit-maket.jpg",
 				"filter":"filter-style  filter-2019",
 				"firm":""
 			},
 			"stroyproekt":{
-				"link":"/stroyproekt.html",
+				"link":"/build/stroyproekt.html",
 				"name":"Сайт проектной организации «Стройпроект»",
-				"preview":"/img/portfolio/stroyproekt-preview.jpg",
-				"maket":"/img/portfolio/stroyproekt-maket.jpg",
+				"preview":"/build/img/portfolio/stroyproekt-preview.jpg",
+				"maket":"/build/img/portfolio/stroyproekt-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"countinstrument":{
-				"link":"/countinstrument.html",
+				"link":"/build/countinstrument.html",
 				"name":"Сайт ЗАО «Счетприбор»",
-				"preview":"/img/portfolio/countinstrument-preview.jpg",
-				"maket":"/img/portfolio/countinstrument-maket.jpg",
+				"preview":"/build/img/portfolio/countinstrument-preview.jpg",
+				"maket":"/build/img/portfolio/countinstrument-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"specdoors":{
-				"link":"/specdoors.html",
+				"link":"/build/specdoors.html",
 				"name":"Интернет-магазин «Специальные Двери»",
-				"preview":"/img/portfolio/specdoors-preview.jpg",
-				"maket":"/img/portfolio/specdoors-maket.jpg",
+				"preview":"/build/img/portfolio/specdoors-preview.jpg",
+				"maket":"/build/img/portfolio/specdoors-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"tkachenko":{
-				"link":"/tkachenko.html",
+				"link":"/build/tkachenko.html",
 				"name":"Личный сайт мастера Д. Ткаченко",
-				"preview":"/img/portfolio/tkachenko-preview.jpg",
-				"maket":"/img/portfolio/tkachenko-maket.jpg",
+				"preview":"/build/img/portfolio/tkachenko-preview.jpg",
+				"maket":"/build/img/portfolio/tkachenko-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"zkz":{
-				"link":"/zkz.html",
+				"link":"/build/zkz.html",
 				"name":"Сайт Звягинского Крахмального Завода «ЗКЗ»",
-				"preview":"/img/portfolio/zkz-preview.jpg",
-				"maket":"/img/portfolio/zkz-maket.jpg",
+				"preview":"/build/img/portfolio/zkz-preview.jpg",
+				"maket":"/build/img/portfolio/zkz-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			}
 		},
 		"2018":{
 			"rapl":{
-				"link":"/rapl.html",
+				"link":"/build/rapl.html",
 				"name":"Лэндинг компании RAPL GmbH",
-				"preview":"/img/portfolio/rapl-preview.jpg",
-				"maket":"/img/portfolio/rapl-maket.jpg",
+				"preview":"/build/img/portfolio/rapl-preview.jpg",
+				"maket":"/build/img/portfolio/rapl-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"fisher":{
-				"link":"/fisher.html",
+				"link":"/build/fisher.html",
 				"name":"Личный сайт адвоката Сергея Фишера",
-				"preview":"/img/portfolio/fisher-preview.jpg",
-				"maket":"/img/portfolio/fisher-maket.jpg",
+				"preview":"/build/img/portfolio/fisher-preview.jpg",
+				"maket":"/build/img/portfolio/fisher-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"elephant":{
-				"link":"/elephant.html",
+				"link":"/build/elephant.html",
 				"name":"Сайт фабрики мебели «Слон»",
-				"preview":"/img/portfolio/elephant-preview.jpg",
-				"maket":"/img/portfolio/elephant-maket.jpg",
+				"preview":"/build/img/portfolio/elephant-preview.jpg",
+				"maket":"/build/img/portfolio/elephant-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"faberlic":{
-				"link":"/faberlic.html",
+				"link":"/build/faberlic.html",
 				"name":"Сайт для представителя «Фаберлик»",
-				"preview":"/img/portfolio/faberlic-preview.jpg",
-				"maket":"/img/portfolio/faberlic-maket.jpg",
+				"preview":"/build/img/portfolio/faberlic-preview.jpg",
+				"maket":"/build/img/portfolio/faberlic-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"oilenergy":{
-				"link":"/oilenergy.html",
+				"link":"/build/oilenergy.html",
 				"name":"Сайт нефтяной компании «Ойл Энерджи групп»",
-				"preview":"/img/portfolio/oilenergy-preview.jpg",
-				"maket":"/img/portfolio/oilenergy-maket.jpg",
+				"preview":"/build/img/portfolio/oilenergy-preview.jpg",
+				"maket":"/build/img/portfolio/oilenergy-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"businessc":{
-				"link":"/businessc.html",
+				"link":"/build/businessc.html",
 				"name":"Серия выполненных визиток",
-				"preview":"/img/portfolio/businessc-preview.jpg",
-				"maket":"/img/portfolio/businessc-maket.jpg",
+				"preview":"/build/img/portfolio/businessc-preview.jpg",
+				"maket":"/build/img/portfolio/businessc-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":""
 			},
 			"banners":{
-				"link":"/banners.html",
+				"link":"/build/banners.html",
 				"name":"Серия выполненной наружной рекламы",
-				"preview":"/img/portfolio/banners-preview.jpg",
-				"maket":"/img/portfolio/banners-maket.jpg",
+				"preview":"/build/img/portfolio/banners-preview.jpg",
+				"maket":"/build/img/portfolio/banners-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":""
 			},
 			"feedregion":{
-				"link":"/feedregion.html",
+				"link":"/build/feedregion.html",
 				"name":"Буклеты для компании «Регион Корма»",
-				"preview":"/img/portfolio/feedregion-preview.jpg",
-				"maket":"/img/portfolio/feedregion-maket.jpg",
+				"preview":"/build/img/portfolio/feedregion-preview.jpg",
+				"maket":"/build/img/portfolio/feedregion-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":"firm-dd"
 			},
 			"resourceoil":{
-				"link":"/resourceoil.html",
+				"link":"/build/resourceoil.html",
 				"name":"Фирменный стиль нефтяной компании «Ресурс Нефть»",
-				"preview":"/img/portfolio/resourceoil-preview.jpg",
-				"maket":"/img/portfolio/resourceoil-maket.jpg",
+				"preview":"/build/img/portfolio/resourceoil-preview.jpg",
+				"maket":"/build/img/portfolio/resourceoil-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"eagle":{
-				"link":"/eagle.html",
+				"link":"/build/eagle.html",
 				"name":"Фирменный стиль компании «Золотой Орел»",
-				"preview":"/img/portfolio/eagle-preview.jpg",
-				"maket":"/img/portfolio/eagle-maket.jpg",
+				"preview":"/build/img/portfolio/eagle-preview.jpg",
+				"maket":"/build/img/portfolio/eagle-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"sycor":{
-				"link":"/sycor.html",
+				"link":"/build/sycor.html",
 				"name":"Фирменный стиль промышленной компании «Сикор»",
-				"preview":"/img/portfolio/sycor-preview.jpg",
-				"maket":"/img/portfolio/sycor-maket.jpg",
+				"preview":"/build/img/portfolio/sycor-preview.jpg",
+				"maket":"/build/img/portfolio/sycor-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"summformula":{
-				"link":"/summformula.html",
+				"link":"/build/summformula.html",
 				"name":"Фирменный стиль кафе «Формула Лета»",
-				"preview":"/img/portfolio/summformula-preview.jpg",
-				"maket":"/img/portfolio/summformula-maket.jpg",
+				"preview":"/build/img/portfolio/summformula-preview.jpg",
+				"maket":"/build/img/portfolio/summformula-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":""
 			}
 		},
 		"2017":{
 			"boxer":{
-				"link":"/boxer.html",
+				"link":"/build/boxer.html",
 				"name":"Сайт автострахования «ИП Боксер»",
-				"preview":"/img/portfolio/boxer-preview.jpg",
-				"maket":"/img/portfolio/boxer-maket.jpg",
+				"preview":"/build/img/portfolio/boxer-preview.jpg",
+				"maket":"/build/img/portfolio/boxer-maket.jpg",
 				"filter":"filter-web  filter-2017",
 				"firm":"firm-ic"
 			},
 			"westmodule":{
-				"link":"/westmodule.html",
+				"link":"/build/westmodule.html",
 				"name":"Сайт компании «Модуль Вест»",
-				"preview":"/img/portfolio/westmodule-preview.jpg",
-				"maket":"/img/portfolio/westmodule-maket.jpg",
+				"preview":"/build/img/portfolio/westmodule-preview.jpg",
+				"maket":"/build/img/portfolio/westmodule-maket.jpg",
 				"filter":"filter-web  filter-2017",
 				"firm":"firm-ic"
 			},
 			"invental":{
-				"link":"/invental.html",
+				"link":"/build/invental.html",
 				"name":"Фирменная брошюра для компании «Изобреталь»",
-				"preview":"/img/portfolio/invental-preview.jpg",
-				"maket":"/img/portfolio/invental-maket.jpg",
+				"preview":"/build/img/portfolio/invental-preview.jpg",
+				"maket":"/build/img/portfolio/invental-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			},
 			"oryolbread":{
-				"link":"/oryolbread.html",
+				"link":"/build/oryolbread.html",
 				"name":"Серия фирменных упаковок Орловского Хлебокомбината",
-				"preview":"/img/portfolio/oryolbread-preview.jpg",
-				"maket":"/img/portfolio/oryolbread-maket.jpg",
+				"preview":"/build/img/portfolio/oryolbread-preview.jpg",
+				"maket":"/build/img/portfolio/oryolbread-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":"firm-dd"
 			},
 			"oryolstroy":{
-				"link":"/oryolstroy.html",
+				"link":"/build/oryolstroy.html",
 				"name":"Серия работ для компании «ОрелСтрой»",
-				"preview":"/img/portfolio/oryolstroy-preview.jpg",
-				"maket":"/img/portfolio/oryolstroy-maket.jpg",
+				"preview":"/build/img/portfolio/oryolstroy-preview.jpg",
+				"maket":"/build/img/portfolio/oryolstroy-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			},
 			"yachts":{
-				"link":"/yachts.html",
+				"link":"/build/yachts.html",
 				"name":"Серия работ для компании «Prestige Yachts»",
-				"preview":"/img/portfolio/yachts-preview.jpg",
-				"maket":"/img/portfolio/yachts-maket.jpg",
+				"preview":"/build/img/portfolio/yachts-preview.jpg",
+				"maket":"/build/img/portfolio/yachts-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			}
 		},
 		"2016":{
 			"inleko":{
-				"link":"/inleko.html",
+				"link":"/build/inleko.html",
 				"name":"Презентация компании «Inleco»",
-				"preview":"/img/portfolio/inleko-preview.jpg",
-				"maket":"/img/portfolio/inleko-maket.jpg",
+				"preview":"/build/img/portfolio/inleko-preview.jpg",
+				"maket":"/build/img/portfolio/inleko-maket.jpg",
 				"filter":"filter-web  filter-2016",
 				"firm":"firm-dd"
 			},
 			"maslennikova":{
-				"link":"/maslennikova.html",
+				"link":"/build/maslennikova.html",
 				"name":"Фирменный буклет «КБ Масленникова»",
-				"preview":"/img/portfolio/maslennikova-preview.jpg",
-				"maket":"/img/portfolio/maslennikova-maket.jpg",
+				"preview":"/build/img/portfolio/maslennikova-preview.jpg",
+				"maket":"/build/img/portfolio/maslennikova-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"crossenergy":{
-				"link":"/crossenergy.html",
+				"link":"/build/crossenergy.html",
 				"name":"Фирменная листовка фитнес клуба «Cross Energy»",
-				"preview":"/img/portfolio/crossenergy-preview.jpg",
-				"maket":"/img/portfolio/crossenergy-maket.jpg",
+				"preview":"/build/img/portfolio/crossenergy-preview.jpg",
+				"maket":"/build/img/portfolio/crossenergy-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"stroyservice":{
-				"link":"/stroyservice.html",
+				"link":"/build/stroyservice.html",
 				"name":"Лифлет компании «Стройсервис»",
-				"preview":"/img/portfolio/stroyservice-preview.jpg",
-				"maket":"/img/portfolio/stroyservice-maket.jpg",
+				"preview":"/build/img/portfolio/stroyservice-preview.jpg",
+				"maket":"/build/img/portfolio/stroyservice-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"toppigments":{
-				"link":"/toppigments.html",
+				"link":"/build/toppigments.html",
 				"name":"Лифлет компании «Premier Pigments»",
-				"preview":"/img/portfolio/toppigments-preview.jpg",
-				"maket":"/img/portfolio/toppigments-maket.jpg",
+				"preview":"/build/img/portfolio/toppigments-preview.jpg",
+				"maket":"/build/img/portfolio/toppigments-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"chance":{
-				"link":"/chance.html",
+				"link":"/build/chance.html",
 				"name":"Фирменная брошюра компании «Автоцентр Шанс»",
-				"preview":"/img/portfolio/chance-preview.jpg",
-				"maket":"/img/portfolio/chance-maket.jpg",
+				"preview":"/build/img/portfolio/chance-preview.jpg",
+				"maket":"/build/img/portfolio/chance-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"zenit":{
-				"link":"/zenit.html",
+				"link":"/build/zenit.html",
 				"name":"Фирменные буклеты строительной компании «Зенит»",
-				"preview":"/img/portfolio/zenit-preview.jpg",
-				"maket":"/img/portfolio/zenit-maket.jpg",
+				"preview":"/build/img/portfolio/zenit-preview.jpg",
+				"maket":"/build/img/portfolio/zenit-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"kommash":{
-				"link":"/kommash.html",
+				"link":"/build/kommash.html",
 				"name":"Каталог продукции завода «Коммаш»",
-				"preview":"/img/portfolio/kommash-preview.jpg",
-				"maket":"/img/portfolio/kommash-maket.jpg",
+				"preview":"/build/img/portfolio/kommash-preview.jpg",
+				"maket":"/build/img/portfolio/kommash-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"avista":{
-				"link":"/avista.html",
+				"link":"/build/avista.html",
 				"name":"Фирменный стиль учебного центра «Ависта»",
-				"preview":"/img/portfolio/avista-preview.jpg",
-				"maket":"/img/portfolio/avista-maket.jpg",
+				"preview":"/build/img/portfolio/avista-preview.jpg",
+				"maket":"/build/img/portfolio/avista-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			},
 			"tier":{
-				"link":"/tier.html",
+				"link":"/build/tier.html",
 				"name":"Фирменный стиль компании по ремонту и отделке квартир «Ярус»",
-				"preview":"/img/portfolio/tier-preview.jpg",
-				"maket":"/img/portfolio/tier-maket.jpg",
+				"preview":"/build/img/portfolio/tier-preview.jpg",
+				"maket":"/build/img/portfolio/tier-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			},
 			"profcosmo":{
-				"link":"/profcosmo.html",
+				"link":"/build/profcosmo.html",
 				"name":"Фирменный стиль для салона красоты «Profcosmo»",
-				"preview":"/img/portfolio/profcosmo-preview.jpg",
-				"maket":"/img/portfolio/profcosmo-maket.jpg",
+				"preview":"/build/img/portfolio/profcosmo-preview.jpg",
+				"maket":"/build/img/portfolio/profcosmo-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			}
 		},
 		"2015":{
 			"agroreserv":{
-				"link":"/agroreserv.html",
+				"link":"/build/agroreserv.html",
 				"name":"Фирменный стиль компании «АгроРезерв»",
-				"preview":"/img/portfolio/agroreserv-preview.jpg",
-				"maket":"/img/portfolio/agroreserv-maket.jpg",
+				"preview":"/build/img/portfolio/agroreserv-preview.jpg",
+				"maket":"/build/img/portfolio/agroreserv-maket.jpg",
 				"filter":"filter-style  filter-2015",
 				"firm":"firm-dd"
 			}
