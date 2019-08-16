@@ -5,7 +5,7 @@
 	</head>
 	<body>
 
-    	{% include "../block/common/navbar/navbar.twig" with {navbar_prefix:"navbar__", navbar_mod:"is--scroll", navbar_link: "/#"} %}
+    	{% include "../block/common/navbar/navbar.twig" with {navbar_prefix:"navbar__", navbar_mod:"is--scroll", navbar_link: [page.index,"/#"].join('')} %}
 
 		{% include "../block/page/portfolio/card.twig" with {content_prefix:"content-block__", content_mod:"is--portfolio-card", heading_group:"is--gap-sm", heading_mod:"is--h2  is--ff-2  is--fw-700", heading_level:"h1", heading:portfolio.2016.chance.name, bread:portfolio.2016.chance.name, bread_l1:"Мои работы", bread_l1_link:page.portfolio, maket:portfolio.2016.chance.maket, firm:portfolio.2016.chance.firm} %}  
 
