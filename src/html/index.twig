@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>	
+    	{% include "../block/common/head/head.twig" with {title:"Мое портфолио"}  %}
+	</head>
+	<body class="is--index-page">
+    	{% include "../block/common/navbar/navbar.twig" with {view:"scrollto", navbar_prefix:"navbar__", navbar_mod:"is--scroll  is--index", container: "is--index", navbar_link: "#", navbar_scrollto:"scrollto"} %}
+        <main class="{{prefix.content}}panel  {{mod.index}}-wrap">
+            <div class="{{prefix.content}}grid-row  grid__row  {{mod.index}}-wrap">
+                <div class="grid__cols">
+                    {% include "../block/common/footer/footer.twig" with {prefix:"footer__", mod: mod.index, group: "data-sticky-container"} %}
+                </div>
+                <div class="grid__cols">
+                    <div class="{{prefix.content}}elem  {{mod.index}}-wrap"  data-sticky-container>
+                        <div class="{{prefix.content}}preview  {{mod.index}}-wrap" data-sticky data-margin-top="0" data-sticky-for="1024">
+                            <div class="{{prefix.content}}preview  {{mod.index}}-iam">
+                                <img src="{{path.img}}/temp/iam.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        {% include "../block/common/header/tpl.twig" with {content_prefix:"header-block__", content_id:id.index.header, heading:"Артём <small>я&nbsp;—&nbsp;дизайнер</small>", heading_small:"Здравствуйте,<br> меня зовут", bg:[path.img,"/temp/bg-header.png"].join("") } %}
+                    </div>
+                    <div class="{{prefix.content}}elem  {{mod.index}}-wrap">
+                        
+                        {% include "../block/page/index/about.twig" with {content_prefix:"content-block__", content_mod:"is--index-about", content_id:id.index.about, heading_group:"is--gap-sm", heading_mod:"is--ff-2  is--h2  is--fw-700", heading_level:"h2", heading:"Обо мне"} %} 
+
+                        {% include "../block/page/index/skills.twig" with {content_prefix:"content-block__", content_mod:"is--index-skills", content_id:id.index.skills, heading_group:"", heading_mod:"is--ff-2  is--h2  is--fw-700", heading_level:"h2", heading:"Мои навыки"} %}
+
+                        {% include "../block/page/portfolio/index.twig" with {content_prefix:"content-block__", content_mod:"is--portfolio-index", content_id:id.index.portfolio, heading_group:"", heading_mod:"is--ff-2  is--h2  is--fw-700", heading_level:"h2", heading:"Мои работы"} %}        
+                    </div>            
+                </div>            
+            </div>            
+        </main>
+    	{% include "../block/common/script/script.twig"%}
+        <script>
+            var sticky = new Sticky('[data-sticky]', {});
+            sticky.update();
+        </script>
+	</body>
+</html> 

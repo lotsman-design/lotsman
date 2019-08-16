@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>	
+    	{% include "../block/common/head/head.twig" with {title:portfolio.2018.banners.name}  %}
+	</head>
+	<body>
+
+    	{% include "../block/common/navbar/navbar.twig" with {navbar_prefix:"navbar__", navbar_mod:"is--scroll", navbar_link: "/#"} %}
+
+		{% include "../block/page/portfolio/card.twig" with {content_prefix:"content-block__", content_mod:"is--portfolio-card", heading_group:"is--gap-sm", heading_mod:"is--h2  is--ff-2  is--fw-700", heading_level:"h1", heading:portfolio.2018.banners.name, bread:portfolio.2018.banners.name, bread_l1:"Мои работы", bread_l1_link:page.portfolio, maket:portfolio.2018.banners.maket, firm:portfolio.2018.banners.firm} %}  
+
+    	{% include "../block/common/footer/footer.twig" with {prefix:"footer__", mod: ""} %}
+
+    	{% include "../block/common/script/script.twig"%}
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<main class="{{content_prefix}}panel">
+	<div class="{{content_prefix}}container  container  is--pb0">
+		{% include "../../common/page-header/tpl.twig" with {prefix:"page-header__", mod:heading_mod, group:heading_group, level:heading_level, heading:heading, level_sm:heading_sm_level, heading:heading_sm, bread:bread, bread_mod:bread_mod, bread_l1:bread_l1, bread_l1_link:bread_l1_link, bread_l2:bread_l2, bread_l2_link:bread_l2_link } %}	
+	</div>
+	{# <div>
+
+	{% set json %}
+	    {% include "portfolio.json" %}
+	{% endset %}
+	{% set obj = %json%  %}
+	{{obj}}
+	<table> 
+	{% for value in json %}
+	    <tr>
+	        <td>
+	            {{value.preview}}
+	        </td>
+	        <td>
+	            {{value.maket}}
+	        </td>
+	    </tr>
+	{% endfor %}
+	</table>
+	</div> #}
+	{% if firm != "" %}
+	<div class="{{content_prefix}}card  {{content_mod}}">
+		<div class="{{content_prefix}}container  container  is--p0">
+			<div class="{{content_prefix}}card-label  {{content_mod}}">
+				Разработано для: 
+			</div>
+			<div class="{{content_prefix}}card-preview  {{content_mod}}">
+				{% include "../../common/svg-sprite/svg.twig" with {icon:firm} %}
+			</div>				
+		</div>		
+	</div>
+	{% endif %}
+	<div class="{{content_prefix}}container  container  is--fluid  is--pt0">
+		<img src="{{maket}}" class="img-responsove" alt="">
+	</div>
+
+</main>

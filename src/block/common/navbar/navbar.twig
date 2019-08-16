@@ -1,0 +1,45 @@
+<nav class="{{navbar_prefix}}block  {{navbar_mod}}" {% if view == "scrollto" %}data-scrollto="navbar"{% endif %}>
+	<div class="{{navbar_prefix}}header">
+		<div class="{{navbar_prefix}}container container  is--header">
+			<div class="{{navbar_prefix}}header-row row ">
+				<div class="{{navbar_prefix}}header-cols cols  is--logotip">
+					<a class="{{navbar_prefix}}logotip  {{navbar_scrollto}}" href="{{navbar_link}}{{id.index.header}}" data-scrollto-diff="-62">
+						{% include "../svg-sprite/svg.twig" with {icon:"logotip"} %}
+					</a> 
+				</div>
+				<div class="{{navbar_prefix}}header-cols cols  is--hamburger">
+					<div class="{{navbar_prefix}}hamburger">
+						<button class="{{navbar_prefix}}hamburger-card" data-scrollto="humb" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false" data-toggle-nav=".navbar-site" data-body="html" data-collapse-nav=".navbar__collapse">
+							<span class="{{navbar_prefix}}hamburger-card-inner">
+								<span class="{{navbar_prefix}}hamburger-card-line  is--left"></span>
+								<span class="{{navbar_prefix}}hamburger-card-line  is--center"></span>
+								<span class="{{navbar_prefix}}hamburger-card-line  is--right"></span>
+							</span>
+						</button>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="{{navbar_prefix}}collapse">
+		<div class="{{navbar_prefix}}container  container  {{container}}  is--collapse">
+			<div class="{{navbar_prefix}}collapse-inner">	
+				<div class="row {{navbar_prefix}}collapse-row">
+					<div class="{{navbar_prefix}}collapse-cols cols  is--left">
+						<a class="{{navbar_prefix}}logotip  {{navbar_scrollto}}" href="{{navbar_link}}index-header">
+							{% include "../svg-sprite/svg.twig" with {icon:"logotip"} %}
+						</a> 
+					</div>
+					<div class="{{navbar_prefix}}collapse-cols cols  is--right">
+						<ul class="{{navbar_prefix}}nav">
+							{% set navbar = [{"name":"Обо мне", "link":id.index.about, "mod":"", "diff":"-62"},{"name":"Мои навыки", "link":id.index.skills, "mod":"", "diff":"-62"},{"name":"Мои работы", "link":id.index.portfolio, "mod":"", "diff":"-62"}] %}
+						    {% for value in navbar %}
+							<li class="{{navbar_prefix}}nav-item  {{value.mod }}" data-scrollto="nav-item"><a href="{{navbar_link}}{{value.link}}" class="{{navbar_prefix}}nav-link  {% if view == "scrollto" %}scrollto{% endif %}" {% if value.diff != "" %}data-scrollto-diff="{{value.diff}}"{% endif %}><span>{{value.name}}</span></a></li>
+						    {% endfor %}
+						</ul>							
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>

@@ -1,0 +1,315 @@
+.card-item__{
+	&card{
+		position: relative;
+		display: block;
+		&.is--about{
+			&-personal{
+				margin-bottom: 15px;
+				&:last-child{margin-bottom: 0}
+			}
+			&-edu{
+				padding-left: 30px;
+				font-size: @b-fs - 2;
+				line-height: @b-lh - 2;
+				margin-bottom: 20px;
+				max-width: 550px;
+				&::before{
+					content: '';
+					position: absolute;
+					top: 7px;
+					left: 3px;
+					border-left: 10px solid @info;
+					border-top: 8px solid fadeout(@info, 100%);
+					border-bottom: 8px solid fadeout(@info, 100%);
+				}
+				&:last-child{margin-bottom: 0}
+			}
+			&-experience{
+				padding-top: 7px;
+				font-size: @b-fs - 2;
+				line-height: @b-lh;
+				display: grid;
+				grid-gap: 20px;
+				grid-template-columns: 1fr;
+				align-items: center;
+				@media @media-point-notsmart {
+					grid-gap: 30px;
+					grid-template-columns: 36% ~"calc(64% - 30px)";
+					max-width: 710px;					
+				}	
+				margin-bottom: 30px;
+				&:last-child{margin-bottom: 0}			
+			}
+		}
+		&.is--skills{
+			&-text{
+				padding: 5px 0 0 15px;
+			}
+		}
+		&.is--portfolio{
+			overflow: hidden;
+			&.is--hidden{
+				display: none;
+			}
+			&.is--visible{
+				display: block;
+			}
+			&-more{
+				padding: 20px;
+				overflow: hidden;
+
+				&::before,
+				&::after{
+					content: '';
+					position: absolute;
+					z-index: 1;
+					width: 140%;
+					height: 50%;
+					left: -180%;
+					transition: @trs-site;
+				}
+				&::before{
+					top: 0;
+					background-color: fadeout(@primary, 0%);
+					transform: skew(45deg);
+				}
+				&::after{
+					bottom: 0;
+					background-color: fadeout(@primary, 0%);
+					transform: skew(-45deg);
+				}
+
+				&:hover{
+					&::before,
+					&::after{
+						left: -20%;
+					}
+				}
+			}
+		}
+	}
+	&inner{
+		transition: @trs-site;
+		position: relative;		
+		&.is--about{
+			&-personal{
+				display: flex;
+				align-items: center;
+			}
+		}
+		&.is--portfolio{
+			&-more{
+				position: relative;
+				z-index: 2;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				border: 2px solid @primary;
+				padding: 20px;
+				background-color: @white;
+			}
+		}
+	}
+	&row{}
+	&cols{}
+	&bg{
+		transition: @trs-site;		
+		position: absolute;
+		z-index: 5;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		display: flex;
+		align-items: flex-end;
+		padding: 15px;
+		//background-color: fadeout(@success, 20%);
+		@media @media-point-screen {
+			padding: 20px 25px;
+		}
+		&::before,
+		&::after{
+			content: '';
+			position: absolute;
+			z-index: 1;
+			width: 120%;
+			//width: 140%;
+			height: 50%;
+			left: -140%;
+			transition: @trs-site;
+		}
+		&::before{
+			top: 0;
+			background-color: fadeout(@primary, 50%);
+			transform: skew(45deg);
+		}
+		&::after{
+			bottom: 0;
+			background-color: fadeout(@primary, 50%);
+			transform: skew(-45deg);
+		}
+
+		.card-item__card:hover &,
+		.card-item__card.is--active &{
+			opacity: 1;
+			&::before,
+			&::after{
+				left: -15%;
+				//left: -20%;
+			}
+		}
+	}
+	&preview{
+		display: block;
+		position: relative;
+		svg{display: block;}
+		&.is--about{
+			&-personal{
+				min-width: 28px;
+				width: 28px;
+				height: 28px;
+				margin-right: 15px;
+				color: fadeout(@black, 50%);
+				svg{display: block;}
+			}
+			&-experience{
+				&{
+					width: 195px;
+					height: 65px;
+				}
+			}	
+		}	
+		&.is--skills{
+			width: 60px;
+			height: 60px;
+			&-text{
+				width: 60px;
+				height: 60px;
+				position: absolute;
+				top: 5px;
+				left: -10px;
+				z-index: -1;
+			}
+		}
+	}
+	&heading-block{
+		&.is--reviews{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			@media @media-point-smart {
+				flex-wrap: wrap;
+			}
+		}
+	}
+	&heading{
+		transition: @trs-site;
+		&.is--about{
+			&-personal{
+				color: @black;
+				margin-bottom: 0;
+				font-size: @b-fs - 2;
+				line-height: @b-lh - 2;
+				&.is--lg{
+					font-weight: 700;
+					margin-bottom: 5px;				
+				}
+			}
+			&-edu{
+			}
+			&-experience{				
+				font-weight: 700;
+			}
+		}
+		&.is--skills{
+			.heading4();
+			text-align: center;
+			color: @white;
+			font-weight: 700;
+		}
+		&.is--portfolio{
+			&{
+				position: relative;
+				z-index: 10;
+				color: @white;
+				margin-bottom: 0;
+				font-weight: 700;
+				.calcFontSize(19, 23, 320, 1680);
+				.calcLineHeight(20, 23, 320, 1680);
+				transition: @trs-site;
+			}
+			&-more{
+				color: @default;
+				font-weight: 700;
+				font-family: @b-ff-2;
+				.heading5();				
+				text-transform: uppercase;
+				letter-spacing: .13vw;
+			}
+		}
+	}
+	&date{	
+		display: block;
+		transition: @trs-site;
+		&.is--about{
+			&-experience{
+			}
+		}
+	}
+	&post{ 
+		&.is--about{
+			&-experience{
+			}
+		}
+	}
+	&note{
+		&.is--about{
+			&-personal{
+				font-size: @b-fs - 2;
+				line-height: @b-lh + 6;
+				@media @media-point-screen-lg {
+					max-width: 300px;
+				}
+			}
+			&-edu{
+				line-height: @b-lh;
+				p{
+					margin-bottom: 0px;
+				}
+			}
+		}
+		&.is--portfolio{
+			&-count{
+				text-align: center;
+			}
+		}
+		&.is--skills{
+			&-text{
+				font-size: @b-fs - 2;
+				line-height: @b-lh - 6;
+				color: @success;
+			}
+		}
+	}
+	&num{
+		&.is--skills{
+			position: absolute;
+		    bottom: -20px;
+			left: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			border-radius: 50%;
+			background-color: @info;
+			font-size: @b-fs - 4;
+			font-weight: 700;
+			color: @warning
+		}
+	}
+}

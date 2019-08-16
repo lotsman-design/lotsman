@@ -1,0 +1,5 @@
+{% for value in list %}
+<div class="{{prefix}}card  {{mod}}  {{value.mod}}"> 
+	<{{value.tag}} {% if value.href != null %}href="{{value.target}}{{value.href}}"{% endif %} class="{{prefix}}item  {{mod}}">{{value.name}}</{{value.tag}}>
+</div>
+{% endfor %} 

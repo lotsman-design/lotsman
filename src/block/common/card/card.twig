@@ -1,0 +1,77 @@
+{% if view == "personal" %}
+{% for value in list %}		
+<div class="{{prefix}}card  {{mod}}">
+	<div class="{{prefix}}inner  {{mod}}">
+		{% if value.icon != null %}
+		<div class="{{prefix}}preview  {{mod}}">
+			{% include "../../common/svg-sprite/svg.twig" with {icon:value.icon} %}
+		</div>
+		{% endif %}
+		<h5 class="{{prefix}}heading  {{mod}}">{{value.heading}}</h5>
+	</div>
+	{% if value.note != null %}<div class="{{prefix}}note  {{mod}}  text__block">{{value.note}}</div>{% endif %}
+</div> 
+{% endfor %}
+{% endif %}
+{% if view == "edu" %}
+{% for value in list %}		
+<div class="{{prefix}}card  {{mod}}">
+	{% if value.note != null %}<div class="{{prefix}}note  {{mod}}  text__block">{{value.note}}</div>{% endif %}
+	<div class="{{prefix}}date  {{mod}}">{{value.heading}}</div>	
+</div> 
+{% endfor %}
+{% endif %}
+{% if view == "experience" %}
+{% for value in list %}	
+<div class="{{prefix}}card  {{mod}}">
+	<div class="{{prefix}}preview  {{mod}}  is--{{value.preview}}">
+		{% include "../../common/svg-sprite/svg.twig" with {icon:value.preview} %}
+	</div>
+	<div>
+		<div class="{{prefix}}heading  {{mod}}">{{value.heading}}</div>	
+		<div class="{{prefix}}post  {{mod}}">{{value.post}}</div>
+		<div class="{{prefix}}date  {{mod}}">{{value.date}}</div>
+	</div> 
+</div> 
+{% endfor %}
+{% endif %}
+{% if view == "skills" %}
+{% for value in list %}	
+<div class="{{prefix}}card  grid__cols  {{mod}}">
+	<div class="{{prefix}}preview  {{mod}}  {{value.icon}}">
+		{% include "../../common/svg-sprite/svg.twig" with {icon:value.icon} %}
+	</div>
+	<div class="{{prefix}}num  {{mod}}">{{value.num}}</div>
+</div> 
+{% endfor %}
+{% endif %}
+{% if view == "skills-text" %}
+{% for value in list %}	
+<div class="{{prefix}}card  grid__cols  {{mod}}">
+	<div class="{{prefix}}preview  {{mod}}  {{value.icon}}">
+		{% include "../../common/svg-sprite/svg.twig" with {icon:value.icon} %}
+	</div>
+	<div class="{{prefix}}note  {{mod}}">{{value.note}}</div>
+</div> 
+{% endfor %}
+{% endif %}
+{% if view == "portfolio-more" %}
+<a href="{{link}}" class="{{prefix}}card  grid__cols  {{mod}}">
+	<div class="{{prefix}}inner  {{mod}}">
+		<div class="{{prefix}}heading  {{mod}}">{{heading}}</div>
+	</div> 
+</a> 
+{% endif %}
+{% if view == "portfolio" %}
+{% for value in list %}	
+<a href="{{value.link}}" class="{{prefix}}card  grid__cols  {{mod}}  {{value.filter}}" data-item>
+	<div class="{{prefix}}preview  {{mod}}">
+		<img src="{{value.preview}}" alt="{{value.heading}}" class="img-responsive">
+	</div>
+	<div class="{{prefix}}bg  {{mod}}">
+		<div class="{{prefix}}view  {{mod}}"></div>
+		<h3 class="{{prefix}}heading  {{mod}}">{{value.heading}}</h3>		
+	</div>
+</a> 
+{% endfor %}
+{% endif %}

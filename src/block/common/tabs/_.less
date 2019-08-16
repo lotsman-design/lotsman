@@ -1,0 +1,99 @@
+.tabs__{ 
+	@gutter: 1.3vw;
+	&panel{
+		margin-bottom: 25px;
+	}
+	&nav{
+		list-style: none;
+		padding: 0px;
+		margin: -10px -5px 0; 
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		@media @media-point-screen {
+			margin: -10px -@gutter 0;			
+		}
+	}
+	&item{	
+		padding: 10px 5px 0;
+		@media @media-point-screen {
+			padding: 10px @gutter 0;			
+		}
+		&.is--right{
+			margin-left: auto;
+		}
+	}
+	&link{
+		position: relative;
+		display: inline-block;
+		color: @tabs_color;
+		@media @media-point-screen {display: block;}
+		span{
+			position: relative;
+			z-index: 2;			
+		}
+		&[data-toggle="dropdown"]{
+			padding-right: 25px;
+			.icon-dropdown();
+			background-position: center right;
+			.open &{
+				.icon-dropdown-open();
+			}
+		}
+		&:hover,
+		.tabs__item.open &,
+		.tabs__item.is--active &,
+		.tabs__item.active &{
+			color: @tabs_color_active;
+			//background-color: @tabs_bg_active;
+			//border-color: @tabs_border_color_active; 
+		}
+		.tabs__item.open &,
+		.tabs__item.is--active &,
+		.tabs__item.active &{
+			cursor: default;
+		}
+	}
+	&dropdown-menu{
+		margin-top: 11px;
+		left: inherit;
+		background-color: @white;
+		border: 2px solid @success;
+		left: 15px;
+		padding: 0;
+		min-width: 93px;
+		@media @media-point-screen-lg {
+			left: @gutter;
+		}
+	}
+	&dropdown-link{
+		position: relative;
+		display: block;
+		font-size: @b-fs;
+		line-height: @b-lh - 2;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: @default;
+		letter-spacing: 4.5px;
+		padding: 5px 10px;		
+		span{
+			color: @red;
+			transition: @trs-site;
+		}
+		.tabs__dropdown-item.active &,
+		&:focus,
+		&:hover{
+			color: @white;
+			background-color: @default;
+		}
+		.tabs__dropdown-item.active &{
+			cursor: default;
+		}
+	}
+	&pane{
+		display: none;
+		&.active{
+			display: block;
+		}
+	}
+}

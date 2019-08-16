@@ -1,0 +1,41 @@
+{% set phone = contacts.phone|replace({'-': '','(': '',')': '',' ': ''}) %}
+{% set phone2 = contacts.phone2|replace({'-': '','(': '',')': '',' ': ''}) %}
+<footer class="{{prefix}}block  {{mod}}"  {{group}}>		
+	<div class="{{prefix}}inner  {{mod}}" data-sticky data-margin-top="0" data-sticky-for="1024">	
+		<div class="{{prefix}}container container  {{mod}}">
+			<div class="{{prefix}}row row  is--base  {{mod}}">
+				<div class="{{prefix}}cols cols  is--copyright  {{mod}}">
+					<a href="{{page.index}}" class="{{prefix}}logotip">
+						{% include "../svg-sprite/svg.twig" with {icon:"logotip-xs"} %}
+					</a>
+				</div>	
+				<div class="{{prefix}}cols cols  is--phone  {{mod}}">
+					<div class="continfo__label  is--footer">
+						Телефон:
+					</div>
+					{% include "../../common/continfo/tpl.twig" with {view: "footer", prefix:"continfo__", group_prefix:prefix, mod:"is--footer", list:[{"mod":"is--tel","name":contacts.phone, "href":phone, "tag":"a", "target":"tel:"},{"mod":"is--tel","name":contacts.phone2, "href":phone2, "tag":"a", "target":"tel:"}]} %}		
+				</div>
+				<div class="{{prefix}}cols cols  is--phone  {{mod}}">
+					<div class="continfo__label  is--footer">
+						E-mail:
+					</div>
+					{% include "../../common/continfo/tpl.twig" with {view: "footer", prefix:"continfo__", group_prefix:prefix, mod:"is--footer", list:[{"mod":"is--email","name":contacts.email, "href":contacts.email, "tag":"a", "target":"mailto:"},{"mod":"is--email","name":contacts.email2, "href":contacts.email, "tag":"a", "target":"mailto:"}]} %}		
+				</div>
+				<div class="{{prefix}}cols cols  is--phone  {{mod}}">
+					<div class="continfo__label  is--footer">
+						Skype:
+					</div>
+					{% include "../../common/continfo/tpl.twig" with {view: "footer", prefix:"continfo__", group_prefix:prefix, mod:"is--footer", list:[{"mod":"","name":soc.skype, "href":[soc.skype,"?call"].join(''), "icon":"contacts-email", "tag":"a", "target":"skype:"}]} %}  		
+				</div>	
+				<div class="{{prefix}}cols cols  is--soc  {{mod}}">
+					<div class="social__label  is--footer">
+						Связаться со мной:
+					</div>
+					{% include "../../common/social/tpl.twig" with {prefix:"social__", mod: "is--footer", list:[{"name":"soc-fb", "link":soc.fb},{"name":"soc-vk", "link":soc.vk}]} %}	
+				</div>		
+
+				 
+			</div>	
+		</div>
+	</div>
+</footer>

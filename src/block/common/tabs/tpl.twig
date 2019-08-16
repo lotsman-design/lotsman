@@ -1,0 +1,93 @@
+{% if tabs == "about" %} 
+<div class="{{prefix}}panel  {{mod}}">
+	<ul class="{{prefix}}nav  {{mod}}">
+		<li class="{{prefix}}item  {{mod}} active">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}-personal" data-toggle="tab">Личные данные</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}-edu" data-toggle="tab">Образование</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}-experience" data-toggle="tab">Опыт работы</a>
+		</li>
+	</ul>
+</div>
+<div class="{{prefix}}pane  active" id="{{tabs}}-personal">
+	<div class="content-block__grid-row  grid__row  {{mod}}-personal"> 
+		<div class="grid__cols"> 
+			{% include "../../common/card/card.twig" with {view:"personal", prefix:"card-item__", mod:"is--about-personal", list: [{"heading":info.cakeday, "icon":"icon-cakeday"},{"heading":info.family, "icon":"icon-family"},{"heading":info.car, "icon":"icon-car"}]} %}
+		</div>
+		<div class="grid__cols">
+			{% include "../../common/card/card.twig" with {view:"personal", prefix:"card-item__", mod:"is--about-personal  is--lg", list: [{"heading":info.quality, "note":info.quality_text}]} %}
+		</div>
+	</div>
+</div>
+<div class="{{prefix}}pane" id="{{tabs}}-edu">
+	{% include "../../common/card/card.twig" with {view:"edu", prefix:"card-item__", mod:"is--about-edu", list: [{"heading":info.edu.dpo.year, "note":info.edu.dpo.heading},{"heading":info.edu.vpo.year, "note":info.edu.vpo.heading},{"heading":info.edu.vpo2.year, "note":info.edu.vpo2.heading}] } %}
+</div>
+<div class="{{prefix}}pane" id="{{tabs}}-experience"> 
+	{% include "../../common/card/card.twig" with {view:"experience", prefix:"card-item__", mod:"is--about-experience", list: [{"preview":info.experience.ic.logo, "heading":info.experience.ic.heading, "date":info.experience.ic.date, "post":info.experience.ic.post},{"preview":info.experience.dd.logo, "heading":info.experience.dd.heading, "date":info.experience.dd.date, "post":info.experience.dd.post},{"preview":info.experience.rusmed.logo, "heading":info.experience.rusmed.heading, "date":info.experience.rusmed.date, "post":info.experience.rusmed.post}] } %} 
+</div>
+{% endif %}
+
+{% if tabs == "portfolio" %}
+<div class="{{prefix}}panel  {{mod}}">
+	<ul class="{{prefix}}nav  {{mod}}">
+		<li class="{{prefix}}item  {{mod}} active">
+			<a class="{{prefix}}link  {{mod}}" href="#" data-filter="{{filter.all}}">Все</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#" data-filter="{{filter.web}}">Веб-дизайн</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#" data-filter="{{filter.polygraphy}}">Полиграфия</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#" data-filter="{{filter.style}}">Фирменные стили</a>
+		</li>
+		<li class="{{prefix}}item  is--right  {{mod}}  dropdown">
+			<a class="{{prefix}}link  {{mod}}" href="#" data-toggle="dropdown">Год создания</a>
+			<ul class="{{prefix}}dropdown-menu  dropdown-menu">
+				<li class="{{prefix}}dropdown-item  {{mod}}">
+					<a class="{{prefix}}dropdown-link  {{mod}}" href="#" data-filter="{{filter.2019}}">2019</a>
+				</li>
+				<li class="{{prefix}}dropdown-item  {{mod}}">
+					<a class="{{prefix}}dropdown-link  {{mod}}" href="#" data-filter="{{filter.2018}}">2018</a>
+				</li>
+				<li class="{{prefix}}dropdown-item  {{mod}}">
+					<a class="{{prefix}}dropdown-link  {{mod}}" href="#" data-filter="{{filter.2017}}">2017</a>
+				</li>
+				<li class="{{prefix}}dropdown-item  {{mod}}">
+					<a class="{{prefix}}dropdown-link  {{mod}}" href="#" data-filter="{{filter.2016}}">2016</a>
+				</li>
+				<li class="{{prefix}}dropdown-item  {{mod}}">
+					<a class="{{prefix}}dropdown-link  {{mod}}" href="#" data-filter="{{filter.2015}}">2015</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+{% endif %}
+{# 
+<div class="{{prefix}}panel">
+	<ul class="{{prefix}}nav  {{mod}}">
+		<li class="{{prefix}}item  {{mod}} active">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}1" data-toggle="tab">Вкладка 1</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}2" data-toggle="tab">Вкладка 2</a>
+		</li>
+		<li class="{{prefix}}item  {{mod}}">
+			<a class="{{prefix}}link  {{mod}}" href="#{{tabs}}3" data-toggle="tab">Вкладка 3</a>
+		</li>
+	</ul>
+</div>
+<div class="{{prefix}}pane  active" id="{{tabs}}1">
+	Вкладка 1
+</div>
+<div class="{{prefix}}pane" id="{{tabs}}2">
+	Вкладка 2
+</div>
+<div class="{{prefix}}pane" id="{{tabs}}3">
+	Вкладка 3
+</div> #}
