@@ -71,8 +71,8 @@
 	},
 
 	"page":{
-		"index":"/lotsman/build/",
-		"portfolio":"/lotsman/build/portfolio.html"
+		"index":"/lotsman-design.github.io/build/",
+		"portfolio":"/lotsman-design.github.io/build/portfolio.html"
 	},
 	"prefix":{
 		"heading":"page-header__",
@@ -87,11 +87,11 @@
 		"index":"is--index"
 	},	
 	"path":{		                  
-		"css":"/lotsman/build/css",
-		"img":"/lotsman/build/img",
-		"js":"/lotsman/build/js",
-		"favicon":"/lotsman/build/favicon",
-		"docs":"/lotsman/build/docs"
+		"css":"/lotsman-design.github.io/build/css",
+		"img":"/lotsman-design.github.io/build/img",
+		"js":"/lotsman-design.github.io/build/js",
+		"favicon":"/lotsman-design.github.io/build/favicon",
+		"docs":"/lotsman-design.github.io/build/docs"
 	},  
 	"filter":{
 		"all":"all",
@@ -107,306 +107,306 @@
 	"portfolio":{
 		"2019":{
 			"shanghai":{
-				"link":"/lotsman/build/shanghai.html",
+				"link":"/lotsman-design.github.io/build/shanghai.html",
 				"name":"Сайт кафе восточной кухни «Шанхайский квартал»",
-				"preview":"/lotsman/build/img/portfolio/shanghai-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/shanghai-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/shanghai-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/shanghai-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"kit":{
-				"link":"/lotsman/build/kit.html",
+				"link":"/lotsman-design.github.io/build/kit.html",
 				"name":"Фирменный стиль ООО «КИТ»",
-				"preview":"/lotsman/build/img/portfolio/kit-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/kit-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/kit-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/kit-maket.jpg",
 				"filter":"filter-style  filter-2019",
 				"firm":""
 			},
 			"stroyproekt":{
-				"link":"/lotsman/build/stroyproekt.html",
+				"link":"/lotsman-design.github.io/build/stroyproekt.html",
 				"name":"Сайт проектной организации «Стройпроект»",
-				"preview":"/lotsman/build/img/portfolio/stroyproekt-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/stroyproekt-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/stroyproekt-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/stroyproekt-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"countinstrument":{
-				"link":"/lotsman/build/countinstrument.html",
+				"link":"/lotsman-design.github.io/build/countinstrument.html",
 				"name":"Сайт ЗАО «Счетприбор»",
-				"preview":"/lotsman/build/img/portfolio/countinstrument-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/countinstrument-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/countinstrument-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/countinstrument-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"specdoors":{
-				"link":"/lotsman/build/specdoors.html",
+				"link":"/lotsman-design.github.io/build/specdoors.html",
 				"name":"Интернет-магазин «Специальные Двери»",
-				"preview":"/lotsman/build/img/portfolio/specdoors-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/specdoors-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/specdoors-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/specdoors-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"tkachenko":{
-				"link":"/lotsman/build/tkachenko.html",
+				"link":"/lotsman-design.github.io/build/tkachenko.html",
 				"name":"Личный сайт мастера Д. Ткаченко",
-				"preview":"/lotsman/build/img/portfolio/tkachenko-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/tkachenko-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/tkachenko-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/tkachenko-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			},
 			"zkz":{
-				"link":"/lotsman/build/zkz.html",
+				"link":"/lotsman-design.github.io/build/zkz.html",
 				"name":"Сайт Звягинского Крахмального Завода «ЗКЗ»",
-				"preview":"/lotsman/build/img/portfolio/zkz-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/zkz-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/zkz-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/zkz-maket.jpg",
 				"filter":"filter-web  filter-2019",
 				"firm":"firm-ic"
 			}
 		},
 		"2018":{
 			"rapl":{
-				"link":"/lotsman/build/rapl.html",
+				"link":"/lotsman-design.github.io/build/rapl.html",
 				"name":"Лэндинг компании RAPL GmbH",
-				"preview":"/lotsman/build/img/portfolio/rapl-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/rapl-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/rapl-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/rapl-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"fisher":{
-				"link":"/lotsman/build/fisher.html",
+				"link":"/lotsman-design.github.io/build/fisher.html",
 				"name":"Личный сайт адвоката Сергея Фишера",
-				"preview":"/lotsman/build/img/portfolio/fisher-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/fisher-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/fisher-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/fisher-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"elephant":{
-				"link":"/lotsman/build/elephant.html",
+				"link":"/lotsman-design.github.io/build/elephant.html",
 				"name":"Сайт фабрики мебели «Слон»",
-				"preview":"/lotsman/build/img/portfolio/elephant-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/elephant-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/elephant-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/elephant-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"faberlic":{
-				"link":"/lotsman/build/faberlic.html",
+				"link":"/lotsman-design.github.io/build/faberlic.html",
 				"name":"Сайт для представителя «Фаберлик»",
-				"preview":"/lotsman/build/img/portfolio/faberlic-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/faberlic-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/faberlic-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/faberlic-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"oilenergy":{
-				"link":"/lotsman/build/oilenergy.html",
+				"link":"/lotsman-design.github.io/build/oilenergy.html",
 				"name":"Сайт нефтяной компании «Ойл Энерджи групп»",
-				"preview":"/lotsman/build/img/portfolio/oilenergy-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/oilenergy-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/oilenergy-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/oilenergy-maket.jpg",
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
 			"businessc":{
-				"link":"/lotsman/build/businessc.html",
+				"link":"/lotsman-design.github.io/build/businessc.html",
 				"name":"Серия выполненных визиток",
-				"preview":"/lotsman/build/img/portfolio/businessc-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/businessc-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/businessc-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/businessc-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":""
 			},
 			"banners":{
-				"link":"/lotsman/build/banners.html",
+				"link":"/lotsman-design.github.io/build/banners.html",
 				"name":"Серия выполненной наружной рекламы",
-				"preview":"/lotsman/build/img/portfolio/banners-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/banners-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/banners-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/banners-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":""
 			},
 			"feedregion":{
-				"link":"/lotsman/build/feedregion.html",
+				"link":"/lotsman-design.github.io/build/feedregion.html",
 				"name":"Буклеты для компании «Регион Корма»",
-				"preview":"/lotsman/build/img/portfolio/feedregion-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/feedregion-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/feedregion-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/feedregion-maket.jpg",
 				"filter":"filter-polygraphy  filter-2018",
 				"firm":"firm-dd"
 			},
 			"resourceoil":{
-				"link":"/lotsman/build/resourceoil.html",
+				"link":"/lotsman-design.github.io/build/resourceoil.html",
 				"name":"Фирменный стиль нефтяной компании «Ресурс Нефть»",
-				"preview":"/lotsman/build/img/portfolio/resourceoil-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/resourceoil-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/resourceoil-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/resourceoil-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"eagle":{
-				"link":"/lotsman/build/eagle.html",
+				"link":"/lotsman-design.github.io/build/eagle.html",
 				"name":"Фирменный стиль компании «Золотой Орел»",
-				"preview":"/lotsman/build/img/portfolio/eagle-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/eagle-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/eagle-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/eagle-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"sycor":{
-				"link":"/lotsman/build/sycor.html",
+				"link":"/lotsman-design.github.io/build/sycor.html",
 				"name":"Фирменный стиль промышленной компании «Сикор»",
-				"preview":"/lotsman/build/img/portfolio/sycor-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/sycor-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/sycor-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/sycor-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":"firm-ic"
 			},
 			"summformula":{
-				"link":"/lotsman/build/summformula.html",
+				"link":"/lotsman-design.github.io/build/summformula.html",
 				"name":"Фирменный стиль кафе «Формула Лета»",
-				"preview":"/lotsman/build/img/portfolio/summformula-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/summformula-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/summformula-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/summformula-maket.jpg",
 				"filter":"filter-style  filter-2018",
 				"firm":""
 			}
 		},
 		"2017":{
 			"boxer":{
-				"link":"/lotsman/build/boxer.html",
+				"link":"/lotsman-design.github.io/build/boxer.html",
 				"name":"Сайт автострахования «ИП Боксер»",
-				"preview":"/lotsman/build/img/portfolio/boxer-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/boxer-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/boxer-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/boxer-maket.jpg",
 				"filter":"filter-web  filter-2017",
 				"firm":"firm-ic"
 			},
 			"westmodule":{
-				"link":"/lotsman/build/westmodule.html",
+				"link":"/lotsman-design.github.io/build/westmodule.html",
 				"name":"Сайт компании «Модуль Вест»",
-				"preview":"/lotsman/build/img/portfolio/westmodule-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/westmodule-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/westmodule-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/westmodule-maket.jpg",
 				"filter":"filter-web  filter-2017",
 				"firm":"firm-ic"
 			},
 			"invental":{
-				"link":"/lotsman/build/invental.html",
+				"link":"/lotsman-design.github.io/build/invental.html",
 				"name":"Фирменная брошюра для компании «Изобреталь»",
-				"preview":"/lotsman/build/img/portfolio/invental-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/invental-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/invental-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/invental-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			},
 			"oryolbread":{
-				"link":"/lotsman/build/oryolbread.html",
+				"link":"/lotsman-design.github.io/build/oryolbread.html",
 				"name":"Серия фирменных упаковок Орловского Хлебокомбината",
-				"preview":"/lotsman/build/img/portfolio/oryolbread-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/oryolbread-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/oryolbread-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/oryolbread-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":"firm-dd"
 			},
 			"oryolstroy":{
-				"link":"/lotsman/build/oryolstroy.html",
+				"link":"/lotsman-design.github.io/build/oryolstroy.html",
 				"name":"Серия работ для компании «ОрелСтрой»",
-				"preview":"/lotsman/build/img/portfolio/oryolstroy-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/oryolstroy-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/oryolstroy-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/oryolstroy-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			},
 			"yachts":{
-				"link":"/lotsman/build/yachts.html",
+				"link":"/lotsman-design.github.io/build/yachts.html",
 				"name":"Серия работ для компании «Prestige Yachts»",
-				"preview":"/lotsman/build/img/portfolio/yachts-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/yachts-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/yachts-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/yachts-maket.jpg",
 				"filter":"filter-polygraphy  filter-2017",
 				"firm":""
 			}
 		},
 		"2016":{
 			"inleko":{
-				"link":"/lotsman/build/inleko.html",
+				"link":"/lotsman-design.github.io/build/inleko.html",
 				"name":"Презентация компании «Inleco»",
-				"preview":"/lotsman/build/img/portfolio/inleko-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/inleko-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/inleko-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/inleko-maket.jpg",
 				"filter":"filter-web  filter-2016",
 				"firm":"firm-dd"
 			},
 			"maslennikova":{
-				"link":"/lotsman/build/maslennikova.html",
+				"link":"/lotsman-design.github.io/build/maslennikova.html",
 				"name":"Фирменный буклет «КБ Масленникова»",
-				"preview":"/lotsman/build/img/portfolio/maslennikova-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/maslennikova-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/maslennikova-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/maslennikova-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"crossenergy":{
-				"link":"/lotsman/build/crossenergy.html",
+				"link":"/lotsman-design.github.io/build/crossenergy.html",
 				"name":"Фирменная листовка фитнес клуба «Cross Energy»",
-				"preview":"/lotsman/build/img/portfolio/crossenergy-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/crossenergy-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/crossenergy-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/crossenergy-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"stroyservice":{
-				"link":"/lotsman/build/stroyservice.html",
+				"link":"/lotsman-design.github.io/build/stroyservice.html",
 				"name":"Лифлет компании «Стройсервис»",
-				"preview":"/lotsman/build/img/portfolio/stroyservice-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/stroyservice-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/stroyservice-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/stroyservice-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"toppigments":{
-				"link":"/lotsman/build/toppigments.html",
+				"link":"/lotsman-design.github.io/build/toppigments.html",
 				"name":"Лифлет компании «Premier Pigments»",
-				"preview":"/lotsman/build/img/portfolio/toppigments-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/toppigments-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/toppigments-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/toppigments-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"chance":{
-				"link":"/lotsman/build/chance.html",
+				"link":"/lotsman-design.github.io/build/chance.html",
 				"name":"Фирменная брошюра компании «Автоцентр Шанс»",
-				"preview":"/lotsman/build/img/portfolio/chance-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/chance-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/chance-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/chance-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"zenit":{
-				"link":"/lotsman/build/zenit.html",
+				"link":"/lotsman-design.github.io/build/zenit.html",
 				"name":"Фирменные буклеты строительной компании «Зенит»",
-				"preview":"/lotsman/build/img/portfolio/zenit-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/zenit-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/zenit-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/zenit-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"kommash":{
-				"link":"/lotsman/build/kommash.html",
+				"link":"/lotsman-design.github.io/build/kommash.html",
 				"name":"Каталог продукции завода «Коммаш»",
-				"preview":"/lotsman/build/img/portfolio/kommash-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/kommash-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/kommash-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/kommash-maket.jpg",
 				"filter":"filter-polygraphy  filter-2016",
 				"firm":"firm-dd"
 			},
 			"avista":{
-				"link":"/lotsman/build/avista.html",
+				"link":"/lotsman-design.github.io/build/avista.html",
 				"name":"Фирменный стиль учебного центра «Ависта»",
-				"preview":"/lotsman/build/img/portfolio/avista-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/avista-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/avista-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/avista-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			},
 			"tier":{
-				"link":"/lotsman/build/tier.html",
+				"link":"/lotsman-design.github.io/build/tier.html",
 				"name":"Фирменный стиль компании по ремонту и отделке квартир «Ярус»",
-				"preview":"/lotsman/build/img/portfolio/tier-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/tier-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/tier-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/tier-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			},
 			"profcosmo":{
-				"link":"/lotsman/build/profcosmo.html",
+				"link":"/lotsman-design.github.io/build/profcosmo.html",
 				"name":"Фирменный стиль для салона красоты «Profcosmo»",
-				"preview":"/lotsman/build/img/portfolio/profcosmo-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/profcosmo-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/profcosmo-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/profcosmo-maket.jpg",
 				"filter":"filter-style  filter-2016",
 				"firm":"firm-dd"
 			}
 		},
 		"2015":{
 			"agroreserv":{
-				"link":"/lotsman/build/agroreserv.html",
+				"link":"/lotsman-design.github.io/build/agroreserv.html",
 				"name":"Фирменный стиль компании «АгроРезерв»",
-				"preview":"/lotsman/build/img/portfolio/agroreserv-preview.jpg",
-				"maket":"/lotsman/build/img/portfolio/agroreserv-maket.jpg",
+				"preview":"/lotsman-design.github.io/build/img/portfolio/agroreserv-preview.jpg",
+				"maket":"/lotsman-design.github.io/build/img/portfolio/agroreserv-maket.jpg",
 				"filter":"filter-style  filter-2015",
 				"firm":"firm-dd"
 			}
