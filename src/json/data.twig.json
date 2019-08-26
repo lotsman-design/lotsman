@@ -188,6 +188,14 @@
 				"filter":"filter-web  filter-2018",
 				"firm":"firm-ic"
 			},
+			"meteor":{
+				"link":"/build/meteor.html",
+				"name":"Сайт спортивной школы «Метеор»",
+				"preview":"/build/img/portfolio/meteor-preview.jpg",
+				"maket":"/build/img/portfolio/meteor-maket.jpg",
+				"filter":"filter-web  filter-2018",
+				"firm":"firm-ic"
+			},
 			"faberlic":{
 				"link":"/build/faberlic.html",
 				"name":"Сайт для представителя «Фаберлик»",

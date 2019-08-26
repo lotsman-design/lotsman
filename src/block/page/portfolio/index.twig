@@ -2,7 +2,10 @@
 	<div class="{{content_prefix}}container container  is--index  {{content_mod}}">
 		{% include "../../common/page-header/tpl.twig" with {prefix:"page-header__", mod:heading_mod, group:heading_group, level:heading_level, heading:heading} %} 
 		<div class="{{content_prefix}}grid-row  grid__row  is--columns-6    {{content_mod}}">
-			{% include "../../common/card/card.twig" with {view: "portfolio", prefix:"card-item__", mod:"is--portfolio", list: [{"heading":portfolio.2019.shanghai.name, "preview":portfolio.2019.shanghai.preview,"link":portfolio.2019.shanghai.link, "filter":portfolio.2019.shanghai.filter},{"heading":portfolio.2019.kit.name, "preview":portfolio.2019.kit.preview,"link":portfolio.2019.kit.link, "filter":portfolio.2019.kit.filter},{"heading":portfolio.2019.stroyproekt.name, "preview":portfolio.2019.stroyproekt.preview,"link":portfolio.2019.stroyproekt.link, "filter":portfolio.2019.stroyproekt.filter}]} %}
+			{# 2019 #}
+			{% include "../../common/card/card.twig" with {view: "portfolio", prefix:"card-item__", mod:"is--portfolio", list: [{"heading":portfolio.2019.stroyproekt.name, "preview":portfolio.2019.stroyproekt.preview,"link":portfolio.2019.stroyproekt.link, "filter":portfolio.2019.stroyproekt.filter}]} %}
+			{# 2018 #}
+			{% include "../../common/card/card.twig" with {view: "portfolio", prefix:"card-item__", mod:"is--portfolio", list: [{"heading":portfolio.2018.rapl.name, "preview":portfolio.2018.rapl.preview,"link":portfolio.2018.rapl.link, "filter":portfolio.2018.rapl.filter},{"heading":portfolio.2018.fisher.name, "preview":portfolio.2018.fisher.preview,"link":portfolio.2018.fisher.link, "filter":portfolio.2018.fisher.filter}]} %}
 
 
 			{% include "../../common/card/card.twig" with {view: "portfolio-more", prefix:"card-item__", mod:"is--portfolio-more", link:page.portfolio, heading:"Больше проектов"} %}
